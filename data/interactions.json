@@ -1,0 +1,329 @@
+{
+ "drugs": {
+  "warfarin": [
+   "Warfarin",
+   "Coumadin"
+  ],
+  "ibuprofen": [
+   "Ibuprofen",
+   "Advil",
+   "Motrin"
+  ],
+  "aspirin": [
+   "Aspirin"
+  ],
+  "naproxen": [
+   "Naproxen",
+   "Aleve"
+  ],
+  "acetaminophen": [
+   "Acetaminophen",
+   "Paracetamol",
+   "Tylenol"
+  ],
+  "lisinopril": [
+   "Lisinopril"
+  ],
+  "spironolactone": [
+   "Spironolactone"
+  ],
+  "sildenafil": [
+   "Sildenafil",
+   "Viagra"
+  ],
+  "nitroglycerin": [
+   "Nitroglycerin"
+  ],
+  "simvastatin": [
+   "Simvastatin",
+   "Zocor"
+  ],
+  "atorvastatin": [
+   "Atorvastatin",
+   "Lipitor"
+  ],
+  "clarithromycin": [
+   "Clarithromycin"
+  ],
+  "amlodipine": [
+   "Amlodipine",
+   "Norvasc"
+  ],
+  "sertraline": [
+   "Sertraline",
+   "Zoloft"
+  ],
+  "tramadol": [
+   "Tramadol"
+  ],
+  "oxycodone": [
+   "Oxycodone"
+  ],
+  "alprazolam": [
+   "Alprazolam",
+   "Xanax"
+  ],
+  "digoxin": [
+   "Digoxin",
+   "Lanoxin"
+  ],
+  "amiodarone": [
+   "Amiodarone"
+  ],
+  "levothyroxine": [
+   "Levothyroxine",
+   "Synthroid"
+  ],
+  "calcium": [
+   "Calcium"
+  ],
+  "omeprazole": [
+   "Omeprazole",
+   "Prilosec"
+  ],
+  "ciprofloxacin": [
+   "Ciprofloxacin",
+   "Cipro"
+  ],
+  "clopidogrel": [
+   "Clopidogrel",
+   "Plavix"
+  ],
+  "metformin": [
+   "Metformin"
+  ],
+  "lithium": [
+   "Lithium"
+  ],
+  "metoprolol": [
+   "Metoprolol"
+  ],
+  "verapamil": [
+   "Verapamil"
+  ],
+  "methotrexate": [
+   "Methotrexate"
+  ],
+  "amoxicillin": [
+   "Amoxicillin"
+  ]
+ },
+ "interactions": [
+  {
+   "a": "warfarin",
+   "b": "ibuprofen",
+   "severity": "major",
+   "description": "Together they raise the risk of serious bleeding, and NSAIDs also irritate the stomach lining."
+  },
+  {
+   "a": "warfarin",
+   "b": "aspirin",
+   "severity": "major",
+   "description": "Aspirin adds to warfarin’s blood-thinning effect and raises bleeding risk."
+  },
+  {
+   "a": "warfarin",
+   "b": "naproxen",
+   "severity": "major",
+   "description": "Together they raise the risk of serious bleeding, and NSAIDs also irritate the stomach lining."
+  },
+  {
+   "a": "warfarin",
+   "b": "ciprofloxacin",
+   "severity": "major",
+   "description": "Ciprofloxacin can raise warfarin levels (higher INR), increasing bleeding risk."
+  },
+  {
+   "a": "warfarin",
+   "b": "amiodarone",
+   "severity": "major",
+   "description": "Amiodarone can strongly raise warfarin levels. Close monitoring is usually needed."
+  },
+  {
+   "a": "warfarin",
+   "b": "amoxicillin",
+   "severity": "moderate",
+   "description": "Some antibiotics increase warfarin’s effect. INR monitoring is often advised."
+  },
+  {
+   "a": "warfarin",
+   "b": "acetaminophen",
+   "severity": "moderate",
+   "description": "Regular, higher-dose acetaminophen use can raise INR."
+  },
+  {
+   "a": "warfarin",
+   "b": "sertraline",
+   "severity": "moderate",
+   "description": "SSRIs can add to bleeding risk when taken with warfarin."
+  },
+  {
+   "a": "ibuprofen",
+   "b": "aspirin",
+   "severity": "moderate",
+   "description": "Ibuprofen can interfere with aspirin’s heart-protective effect, and both raise stomach bleeding risk."
+  },
+  {
+   "a": "ibuprofen",
+   "b": "naproxen",
+   "severity": "moderate",
+   "description": "Two NSAIDs together add side effects (stomach bleeding, kidney strain) without extra benefit."
+  },
+  {
+   "a": "ibuprofen",
+   "b": "lisinopril",
+   "severity": "moderate",
+   "description": "NSAIDs can weaken the blood-pressure effect and strain the kidneys."
+  },
+  {
+   "a": "naproxen",
+   "b": "lisinopril",
+   "severity": "moderate",
+   "description": "NSAIDs can weaken the blood-pressure effect and strain the kidneys."
+  },
+  {
+   "a": "ibuprofen",
+   "b": "sertraline",
+   "severity": "moderate",
+   "description": "SSRIs plus NSAIDs raise the risk of stomach and other bleeding."
+  },
+  {
+   "a": "ibuprofen",
+   "b": "lithium",
+   "severity": "major",
+   "description": "NSAIDs can raise lithium to toxic levels."
+  },
+  {
+   "a": "ibuprofen",
+   "b": "methotrexate",
+   "severity": "major",
+   "description": "NSAIDs can raise methotrexate levels and increase its toxicity."
+  },
+  {
+   "a": "ibuprofen",
+   "b": "clopidogrel",
+   "severity": "moderate",
+   "description": "Both raise the risk of bleeding."
+  },
+  {
+   "a": "aspirin",
+   "b": "clopidogrel",
+   "severity": "moderate",
+   "description": "Sometimes prescribed on purpose, but it raises bleeding risk. Follow your prescriber’s plan."
+  },
+  {
+   "a": "aspirin",
+   "b": "sertraline",
+   "severity": "moderate",
+   "description": "Both raise the risk of bleeding."
+  },
+  {
+   "a": "lisinopril",
+   "b": "spironolactone",
+   "severity": "major",
+   "description": "Both raise potassium. High potassium can cause dangerous heart rhythm problems."
+  },
+  {
+   "a": "lisinopril",
+   "b": "lithium",
+   "severity": "major",
+   "description": "ACE inhibitors can raise lithium levels."
+  },
+  {
+   "a": "sildenafil",
+   "b": "nitroglycerin",
+   "severity": "major",
+   "description": "Can cause a sudden, severe drop in blood pressure. Never combine."
+  },
+  {
+   "a": "simvastatin",
+   "b": "clarithromycin",
+   "severity": "major",
+   "description": "Clarithromycin greatly raises simvastatin levels, increasing the risk of muscle damage."
+  },
+  {
+   "a": "atorvastatin",
+   "b": "clarithromycin",
+   "severity": "moderate",
+   "description": "Clarithromycin raises statin levels and the risk of muscle problems."
+  },
+  {
+   "a": "simvastatin",
+   "b": "amlodipine",
+   "severity": "moderate",
+   "description": "Amlodipine raises simvastatin levels. The simvastatin dose is usually capped."
+  },
+  {
+   "a": "sertraline",
+   "b": "tramadol",
+   "severity": "major",
+   "description": "Risk of serotonin syndrome (agitation, fever, fast heartbeat) and seizures."
+  },
+  {
+   "a": "oxycodone",
+   "b": "alprazolam",
+   "severity": "major",
+   "description": "An opioid with a benzodiazepine can cause dangerous drowsiness and slowed breathing."
+  },
+  {
+   "a": "tramadol",
+   "b": "alprazolam",
+   "severity": "major",
+   "description": "An opioid with a benzodiazepine can cause dangerous drowsiness and slowed breathing."
+  },
+  {
+   "a": "digoxin",
+   "b": "amiodarone",
+   "severity": "major",
+   "description": "Amiodarone raises digoxin levels, risking toxicity."
+  },
+  {
+   "a": "digoxin",
+   "b": "verapamil",
+   "severity": "moderate",
+   "description": "Verapamil raises digoxin levels and can slow the heart rate."
+  },
+  {
+   "a": "metoprolol",
+   "b": "verapamil",
+   "severity": "major",
+   "description": "Together they can slow the heart too much and drop blood pressure."
+  },
+  {
+   "a": "levothyroxine",
+   "b": "calcium",
+   "severity": "moderate",
+   "description": "Calcium reduces levothyroxine absorption. Doses are usually spaced about 4 hours apart."
+  },
+  {
+   "a": "levothyroxine",
+   "b": "omeprazole",
+   "severity": "minor",
+   "description": "Less stomach acid may slightly lower levothyroxine absorption."
+  },
+  {
+   "a": "ciprofloxacin",
+   "b": "calcium",
+   "severity": "moderate",
+   "description": "Calcium binds ciprofloxacin and reduces absorption. Spacing the doses is usually advised."
+  },
+  {
+   "a": "ciprofloxacin",
+   "b": "metformin",
+   "severity": "moderate",
+   "description": "Fluoroquinolones can cause blood sugar swings in people taking diabetes medicines."
+  },
+  {
+   "a": "clopidogrel",
+   "b": "omeprazole",
+   "severity": "moderate",
+   "description": "Omeprazole can reduce clopidogrel’s activation, making it less effective."
+  },
+  {
+   "a": "methotrexate",
+   "b": "amoxicillin",
+   "severity": "moderate",
+   "description": "Penicillins can slow methotrexate clearance and raise its levels."
+  }
+ ]
+}

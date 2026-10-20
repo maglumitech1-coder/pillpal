@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b6e75">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg">
+<title>PillPal – medication reminders with interaction warnings</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+<h1>PillPal</h1>
+<p class="sub">Medication reminders that warn you when two medicines may not mix.</p>
+<div class="warn"><b>Not medical advice.</b> PillPal is a student project that uses a small sample dataset. “No interaction found” does not mean a combination is safe. Always ask a pharmacist or doctor, and never change a dose because of this app.</div>
+
+<section class="noprint">
+<h2>Add a medicine</h2>
+<form id="f">
+<label>Name (try “warfarin” or “Advil”)<input id="n" list="dl" required autocomplete="off"></label>
+<label>Dose<input id="d" placeholder="e.g. 200 mg"></label>
+<label>Times per day<select id="q"><option value="08:00">Once (08:00)</option><option value="08:00,20:00">Twice (08:00, 20:00)</option><option value="08:00,14:00,20:00">Three times (08:00, 14:00, 20:00)</option></select></label>
+<div class="full bar" style="margin:0"><button class="p" type="submit">Add medicine</button><button type="button" id="demo">Load sample medicines</button><button type="button" id="clr">Clear all data</button></div>
+</form>
+<datalist id="dl"></datalist>
+</section>
+
+<section>
+<h2>Interaction check</h2>
+<div id="ix"></div>
+</section>
+
+<section>
+<h2>Today’s doses</h2>
+<div id="today"></div>
+<div class="bar noprint"><button id="notif">Turn on reminders</button><button id="print">Print summary for pharmacist</button></div>
+<p class="mut" id="nmsg">Reminders appear while this page is open.</p>
+</section>
+
+<section>
+<h2>My medicines</h2>
+<div id="list"></div>
+</section>
+</main>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>if("serviceWorker"in navigator&&location.protocol.startsWith("http"))navigator.serviceWorker.register("sw.js").catch(function(){})</script>
+</body>
+</html>
