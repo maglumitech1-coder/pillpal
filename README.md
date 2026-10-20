@@ -29,9 +29,6 @@ Run the dataset checks and mini evaluation:
 node tests/test.js
 ```
 
-## Deploy (live demo link)
-GitHub repo → **Settings → Pages → Deploy from a branch → main / (root)**. Your site appears at `https://<username>.github.io/<repo>/`.
-
 ## Project structure
 ```
 index.html              app markup
